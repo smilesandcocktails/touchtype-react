@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header'
-import Msgbar from '../Msgbar/Msgbar'
+import Container from '../Container/Container'
 
 class Home extends React.Component {
 
@@ -8,7 +8,7 @@ class Home extends React.Component {
     return (
       <div>
         <Header />
-        <Msgbar msg={this.props.msg}/>
+        <Container />
       </div>
     );
   }

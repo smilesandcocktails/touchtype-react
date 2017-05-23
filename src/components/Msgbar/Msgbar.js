@@ -1,15 +1,10 @@
 import React from 'react';
+import './Msgbar.css'
 
-class Msgbar extends React.Component {
-
-  render() {
-    return (
-      <div>
-        
-      </div>
-    );
-  }
-
-}
+const Msgbar = (props) => (
+  <div>
+    <p>{props.msgs}</p>
+  </div>
+)
 
 export default Msgbar;
